@@ -6,14 +6,13 @@
   <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
   <style media="screen" type="text/css">
-    body {
-      font-family: 'Roboto', sans-serif;
+    html, body { height: 100%; margin: 0; padding: 0; }
+	.container {
+	  height: 100%;
+	}
+	.content {
+	  font-family: 'Roboto', sans-serif;
       text-align: center;
-    }
-    i {
-      font-size: 48px;
-    }
-    #main {
       position: relative;
       top: 50%;
       transform: perspective(1px) translateY(-50%);
@@ -23,10 +22,11 @@
   </style>
 </head>
 <body>
-  <div id="main">
-    <i class="fa fa-superpowers" aria-hidden="true"></i>
-    <p>elasticbrain</p>
-    <p>Makers of arrangera.nu</p>
+  <div class="container">
+  <div class="content">
+  <i class="fa fa-superpowers fa-3x" aria-hidden="true"></i>
+  <p>elasticbrain</p>
+  </div>
   </div>
 </body>
 </html>
